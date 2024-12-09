@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navbar = () => {
+export default function Navbar () {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -147,4 +147,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;

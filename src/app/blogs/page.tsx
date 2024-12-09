@@ -1,33 +1,35 @@
 import React from 'react';
 import Image from 'next/image';
 
-const BlogPage = () => {
+
+export default function BlogsPage (){
   return (
     <>
-      {/* Banner Section */}
+  
+
       <div>
         <Image
           src={"/images/blog.png"}
           alt="blog"
-          width={1440}
-          height={316}
+          width={1435}
+          height={313}
           className="w-full h-auto mt-20"
         />
       </div>
 
-      {/* Main Content */}
+      
       <div className="flex flex-col lg:flex-row lg:justify-between items-start lg:h-[2210px] px-4 lg:px-0">
-        {/* Left Section */}
+    
         <div className="lg:w-1/2 lg:ml-12">
-          {/* Blog Post 1 */}
+    
           <Image
             src={"/images/laptop.png"}
             alt="laptop-img"
             width={817}
-            height={500}
+            height={485}
             className="mt-8 lg:mt-28 w-full"
           />
-          <div className="flex items-center gap-2 lg:gap-4 mt-2">
+          <div className="flex items-center gap-2 lg:gap-5 mt-3">
             <Image src={"/images/user.svg"} alt="user-img" width={20} height={20} />
             <h3 className="text-[#9F9F9F] text-sm lg:text-base">Admin</h3>
             <Image src={"/images/briefcase.svg"} alt="briefcase-img" width={20} height={20} />
@@ -35,20 +37,20 @@ const BlogPage = () => {
             <Image src={"/images/wood.svg"} alt="wood-img" width={20} height={20} />
             <h3 className="text-[#9F9F9F] text-sm lg:text-base">Wood</h3>
           </div>
-          <h1 className="text-[20px] lg:text-[30px] font-semibold my-4">
+          <h1 className="text-[18px] lg:text-[28px] font-semibold my-4">
             Going all-in with millennial design
           </h1>
-          <p className="text-[#9F9F9F] mb-8 text-sm lg:text-base">
+          <p className="text-[#9F9F9F] mb-10 text-sm lg:text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit...
           </p>
           <span className="border-b border-black text-sm">Read More</span>
 
-          {/* Blog Post 2 */}
+     
           <Image
             src={"/images/drawing.png"}
             alt="drawing-img"
-            width={817}
-            height={500}
+            width={815}
+            height={485}
             className="mt-14 w-full"
           />
           <div className="flex items-center gap-2 lg:gap-4 mt-2">
@@ -67,12 +69,11 @@ const BlogPage = () => {
           </p>
           <span className="border-b border-black text-sm">Read More</span>
 
-          {/* Blog Post 3 */}
           <Image
             src={"/images/book.png"}
             alt="books-img"
-            width={817}
-            height={500}
+            width={815}
+            height={485}
             className="mt-14 w-full"
           />
           <div className="flex items-center gap-2 lg:gap-4 mt-2">
@@ -92,14 +93,12 @@ const BlogPage = () => {
           <span className="border-b border-black text-sm">Read More</span>
         </div>
 
-        {/* Right Section */}
+  
         <div className="lg:w-1/2 lg:mr-20 lg:ml-20 mt-10 lg:mt-28">
-          {/* Search Bar */}
           <div className="flex items-center justify-end w-full lg:w-[311px] h-[58px] border px-4 border-[#9F9F9F] rounded-md">
             <Image src={"/images/research.svg"} alt="search-img" width={20} height={20} />
           </div>
 
-          {/* Categories */}
           <h1 className="text-[20px] lg:text-[24px] font-semibold mt-10">Categories</h1>
           <div className="space-y-4 lg:space-y-6">
             {[
@@ -116,7 +115,7 @@ const BlogPage = () => {
             ))}
           </div>
 
-          {/* Recent Posts */}
+        
           <h1 className="text-[24px] font-semibold mb-8">Recent Posts</h1>
           {[
             { src: '/images/pro1.png', title: 'Going all-in with millennial design' },
@@ -136,7 +135,7 @@ const BlogPage = () => {
         </div>
       </div>
 
-      {/* Pagination */}
+
       <div className="flex items-center justify-center gap-2 lg:gap-8 mt-10 lg:mt-14">
         {['1', '2', '3', 'Next'].map((item) => (
           <div
@@ -152,4 +151,3 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;

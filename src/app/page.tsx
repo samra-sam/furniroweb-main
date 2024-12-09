@@ -8,20 +8,20 @@ export default function Page(){
         <Image
           src={"/images/hero-sec.png"}
           alt="hero-section"
-          width={1440}
-          height={316}
-          className="w-full h-auto mt-20"
+          width={1432}
+          height={310}
+          className="w-full h-auto mt-17"
         />
       </div>
-      <h1 className='text-[32px] font-bold text-center mt-10'>Browse The Range</h1>
+      <h1 className='text-[32px] font-bold text-center mt-8'>Browse The Range</h1>
       <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <div className='flex flex-wrap items-center justify-center mt-16 gap-8'>
         <div className='flex flex-col items-center max-w-[300px] sm:max-w-[100%]'>
           <Image
             src={"/images/img1.png"}
             alt='img-1'
-            width={381}
-            height={480}
+            width={380}
+            height={475}
             className="max-w-[100%] h-auto"
           />
           <h3 className='text-center text-2xl mt-6'>Dining</h3>
@@ -31,8 +31,8 @@ export default function Page(){
           <Image
             src={"/images/img2.png"}
             alt='img-2'
-            width={381}
-            height={480}
+            width={380}
+            height={475}
             className="max-w-[100%] h-auto"
           />
           <h3 className='text-center text-2xl mt-6'>Living</h3>
@@ -42,8 +42,8 @@ export default function Page(){
           <Image
             src={"/images/img3.png"}
             alt='img-3'
-            width={381}
-            height={480}
+            width={380}
+            height={475}
             className="max-w-[100%] h-auto"
           />
           <h3 className='text-center text-2xl mt-6'>Bedroom</h3>
@@ -58,8 +58,8 @@ export default function Page(){
             <Image
               src={"/images/table.png"}
               alt='table-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Syltherine</h3>
             <p className='ml-6'>Stylish cafe chair</p>
@@ -87,22 +87,22 @@ export default function Page(){
                 <Image
                   src={"/images/share.svg"}
                   alt='icon-1'
-                  width={16}
-                  height={16}
+                  width={15}
+                  height={15}
                 />
                 <span>Share</span>
                 <Image
                   src={"/images/arrow.svg"}
                   alt='icon-2'
-                  width={16}
-                  height={16}
+                  width={15}
+                  height={15}
                 />
                 <span>Compare</span>
                 <Image
                   src={"/images/heart.svg"}
                   alt='icon-3'
-                  width={16}
-                  height={16}
+                  width={15}
+                  height={15}
                 />
                 <span>Like</span>
               </div>
@@ -112,8 +112,8 @@ export default function Page(){
             <Image
               src={"/images/sofa.png"}
               alt='sofa-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Lolito</h3>
             <p className='ml-6'>Luxury big sofa</p>
@@ -124,8 +124,8 @@ export default function Page(){
             <Image
               src={"/images/multi-sofa.png"}
               alt='multi-sofa-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Respira</h3>
             <p className='ml-6'>Outdoor bar table and stool</p>
@@ -136,8 +136,8 @@ export default function Page(){
             <Image
               src={"/images/lamp.png"}
               alt='lamp-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Grifo</h3>
             <p className='ml-6'>Night lamp</p>
@@ -147,8 +147,8 @@ export default function Page(){
             <Image
               src={"/images/black-sofa.png"}
               alt='black-sofa-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Muggo</h3>
             <p className='ml-6'>Small mug</p>
@@ -158,8 +158,8 @@ export default function Page(){
             <Image
               src={"/images/pic-sofa.png"}
               alt='pic-sofa-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Pingky</h3>
             <p className='ml-6'>Cute bed set</p>
@@ -170,8 +170,8 @@ export default function Page(){
             <Image
               src={"/images/orange-sofa.png"}
               alt='orange-sofa-img'
-              width={285}
-              height={301}
+              width={280}
+              height={300}
             />
             <h3 className='text-[24px] font-semibold text-[#3A3A3A] ml-6 mt-4'>Potty</h3>
             <p className='ml-6'>Minimalist flower pot</p>
@@ -204,8 +204,8 @@ export default function Page(){
             <Image
               src="/images/img6.png"
               alt="last-1"
-              width={404}
-              height={582}
+              width={400}
+              height={580}
               className="w-full lg:w-[404px] lg:h-[582px]"
             />
           </div>
@@ -214,8 +214,8 @@ export default function Page(){
             <Image
               src="/images/img5.png"
               alt="last-1"
-              width={372}
-              height={486}
+              width={370}
+              height={480}
               className="w-full lg:w-[372px] lg:h-[486px]"
             />
           </div>
@@ -231,15 +231,15 @@ export default function Page(){
               <Image
                 src="/images/last1.png"
                 alt="last-1"
-                width={451}
-                height={312}
+                width={450}
+                height={310}
                 className="mb-5"
               />
               <Image
                 src="/images/last2.png"
                 alt="last-2"
-                width={451}
-                height={312}
+                width={450}
+                height={310}
               />
             </div>
 
@@ -247,8 +247,8 @@ export default function Page(){
               <Image
                 src="/images/last3.png"
                 alt="last-3"
-                width={295}
-                height={392}
+                width={290}
+                height={390}
               />
             </div>
 
@@ -256,22 +256,22 @@ export default function Page(){
               <Image
                 src="/images/last4.png"
                 alt="last-4"
-                width={420}
-                height={348}
+                width={418}
+                height={345}
                 className="mb-5 pt-8 lg:pt-32"
               />
               <div className="flex justify-between gap-5">
                 <Image
                   src="/images/last5.png"
                   alt="last-5"
-                  width={178}
+                  width={175}
                   height={242}
                 />
                 <Image
                   src="/images/last6.png"
                   alt="last-6"
-                  width={258}
-                  height={196}
+                  width={255}
+                  height={194}
                 />
               </div>
             </div>
@@ -280,8 +280,8 @@ export default function Page(){
               <Image
                 src="/images/last7.png"
                 alt="last-7"
-                width={425}
-                height={433}
+                width={423}
+                height={432}
               />
             </div>
           </div>

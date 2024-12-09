@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const ContactPage = () => {
+export default function Contact (){
     return (
         <>
             <div>
@@ -80,4 +80,3 @@ const ContactPage = () => {
     );
 };
 
-export default ContactPage;

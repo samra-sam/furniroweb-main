@@ -2,10 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 
-const AsgaardPage = () => {
+export default function Sofa (){
     return (
         <>
-            {/* Navigation Bar */}
             <nav className="bg-[#F9F1E7] h-24 mt-20 flex items-center gap-8 pl-20">
                 <ul className="flex items-center gap-2 list-none">
                     <li className="text-[#9F9F9F]">Home</li>
@@ -26,9 +25,8 @@ const AsgaardPage = () => {
                 </ul>
             </nav>
 
-            {/* Main Content */}
             <div className="flex flex-col lg:flex-row items-start justify-evenly mt-16 px-4 lg:px-24 gap-12">
-                {/* Sidebar Thumbnails */}
+
                 <div className="flex flex-col gap-4">
                     {[1, 2, 3, 4].map((num) => (
                         <div key={num}>
@@ -43,7 +41,7 @@ const AsgaardPage = () => {
                     ))}
                 </div>
 
-                {/* Product Image Container */}
+             
                 <div className="bg-[#F9F1E7] w-full lg:w-1/2 h-auto flex items-center justify-center p-4 rounded-md">
                     <Image
                         src="/images/sofi.png"
@@ -52,9 +50,7 @@ const AsgaardPage = () => {
                         height={600}
                         className="max-w-full h-auto"
                     />
-                </div>
-
-                {/* Product Details */}
+                </div> 
                 <div className="flex flex-col max-w-lg">
                     <h1 className="text-4xl font-semibold mb-2">Asgaard Sofa</h1>
                     <span className="text-2xl text-[#9F9F9F]">Rs. 250,000.00</span>
@@ -88,20 +84,18 @@ const AsgaardPage = () => {
                         </button>
                     </div>
 
-                    {/* Color Selection */}
                     <h2 className="mt-14 text-[#9F9F9F]">Color:</h2>
                     <div className="flex items-center gap-3 mt-4">
                         <div className="w-8 h-8 bg-[#816DFA] rounded-full"></div>
                         <div className="w-8 h-8 bg-black rounded-full"></div>
                         <div className="w-8 h-8 bg-[#B88E2F] rounded-full"></div>
-                    </div>
+                    </div> 
 
-                    {/* Quantity and Actions */}
                     <div className="flex flex-col sm:flex-row items-center gap-3 mt-6">
                         <div className="flex items-center border border-black rounded-2xl w-[123px] h-[64px]">
-                            <button className="px-3">-</button>
-                            <span className="px-4">1</span>
-                            <button className="px-3">+</button>
+                        <button className="px-3">-</button>
+                        <span className="px-4">1</span>
+                        <button className="px-3">+</button>
                         </div>
                        
                         <button className="w-[123px] h-[64px] rounded-2xl border border-black mt-4 sm:mt-0 sm:ml-3">
@@ -114,7 +108,6 @@ const AsgaardPage = () => {
                         </button>
                     </div>
 
-                    {/* Divider */}
                     <div className="border-b border-[#9F9F9F] w-full mt-14"></div>
                     <div className="mt-8 flex items-center justify-start gap-8">
                         <div className='flex flex-col text-[#9F9F9F]'>
@@ -251,4 +244,4 @@ const AsgaardPage = () => {
     );
 };
 
-export default AsgaardPage;
+

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Footer = () => {
+export default function Footer(){
   return (
     <>
       <div className="bg-[#FFFFFF] py-16 px-6 sm:px-12 md:px-16 lg:px-32 mt-44">
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-[#D9D9D9] pb-10 sm:pb-14 w-full text-center">
+      <div className="border-t border-[#D9D9D9] pb-8 sm:pb-13 w-full text-center">
         <br />
         <span className="text-xs sm:text-sm">2023 Funiro. All rights reserved</span>
       </div>
@@ -67,4 +67,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

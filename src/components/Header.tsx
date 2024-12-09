@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Feature = () => {
-  return (
+export default function Header () {
+  return  (
     <div className="h-auto lg:h-[270px] bg-[#F9F1E7] mt-8 lg:mt-16 flex flex-col lg:flex-row items-center justify-evenly gap-6 lg:gap-0 px-4">
                 {[
                     {
@@ -50,5 +50,3 @@ const Feature = () => {
             </div>
   )
 }
-
-export default Feature

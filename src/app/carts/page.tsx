@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const CartPage = () => {
+export default function Carts (){
     return (
         <>
             <div>
@@ -70,5 +70,3 @@ const CartPage = () => {
 
     )
 }
-
-export default CartPage
